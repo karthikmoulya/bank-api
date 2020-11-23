@@ -14,7 +14,7 @@ const statsRoutes = require('./routes/stats');
 const app = express();
 
 const mongodbUrl =
-  'mongodb+srv://karthikmoulya:karthik12@cluster0.wef6o.mongodb.net/<dbname>?retryWrites=true&w=majority';
+  'mongodb+srv://<name>:<password>@cluster0.wef6o.mongodb.net/<dbname>?retryWrites=true&w=majority';
 mongoose.connect(
   mongodbUrl,
   {
